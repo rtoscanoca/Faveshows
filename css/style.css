@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+header {
+  background-image: url(../images/BG\ Medium.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+header li {
+  display: inline-block;
+}
+
+nav a {
+  background-color: rgba(170, 148, 242, 0.866);
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 4px;
+
+  cursor: pointer;
+  color: rgb(240, 243, 246);
+
+  transition: background-color 0.1s,
+  color 0.1s;
+  transition: box-shadow 0.15s;
+
+
+}
+:hover {
+  color: rgb(12, 3, 68);
+  box-shadow: 5px 5px 10px rgb(145, 146, 179);
+}
+p {
+  text-align: left;
+  margin: 10px;
+}
+
+.tv-show-container {
+  max-width: 600px ;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.tv-show-container img {
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+ padding: 30px;
+ background-color: rgb(170, 193, 240);
+ 
+}
